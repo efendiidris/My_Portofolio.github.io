@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.profile .jumbotron {
+	background-color: white;
+}
+
+.profile .jumbotron h1, .efect {
+	color: #b33939;
+}
+
+.profile .jumbotron img {
+	background-color: white;
+	width: 250px;
+	height: 250px;
+	border: 4px solid #341f97;
+	padding: 5px;
+	transition: .5s;
+}
+
+.profile h5 {
+	font-size: 16px;
+}
+
+.profile .jumbotron a {
+	border-radius: 40px;
+}
+
+.about .jumbotron {
+	margin-top: -30px;
+}
+
+.about .jumbotron img {
+	width: 90%;
+	height: 80%;
+}
+
+.about a {
+	border-radius: 30px;
+}
+
+.skill .jumbotron {
+	margin-top: -30px;
+	background-color: white;
+}
+
+.skill .jumbotron img {
+	background-color: white;
+	width: 50px;
+	height: 50px;
+	border: 3px solid #341f97;
+	padding: 3px;
+	transition: .5s;
+}
+
+.skill img:hover {
+	width: 100px;
+	height: 100px;
+}
+
+.skill .progress {
+	border-radius: 30px;
+	background-color: grey !important;
+	height: 15px;
+}
+
+/*.skill .progress-bar {
+	font-size: 10px;
+}*/
+
+.portofolio .jumbotron {
+	margin-top: -30px;
+}
+
+.portofolio .jumbotron img {
+	padding: 15px;
+}
+
+.portofolio .jumbotron h5 {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.portofolio a {
+	border-radius: 30px;
+}
+
+.kontak .jumbotron {
+	margin-top: -30px;
+	background-color: white; 
+}
+
+.navbar {
+	background-color: #b33939 !important;
+}
+
+footer {
+	background-color: #333;
+	padding: 50px;
+	margin-top: -30px;
+	color: white;
+}
+
+html {
+	scroll-behavior: smooth;
+}
